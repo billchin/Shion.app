@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,10 +21,6 @@
 		382F588111774E2100BD3E2F /* HouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F588011774E2100BD3E2F /* HouseView.m */; };
 		382F59C31177777200BD3E2F /* ChimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F59C21177777200BD3E2F /* ChimeView.m */; };
 		382F59DF117785B800BD3E2F /* ThermostatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F59DE117785B800BD3E2F /* ThermostatView.m */; };
-		382F5BC1117CC14F00BD3E2F /* LuaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382F5BC0117CC14F00BD3E2F /* LuaCore.framework */; };
-		382F5BE1117CC15800BD3E2F /* LuaCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 382F5BC0117CC14F00BD3E2F /* LuaCore.framework */; };
-		382F5BE8117CC19300BD3E2F /* LuaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5BE7117CC19300BD3E2F /* LuaManager.m */; };
-		382F5BEB117CC4F300BD3E2F /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5BEA117CC4F300BD3E2F /* XMPPManager.m */; };
 		382F5BF9117CC59300BD3E2F /* DialogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5BF8117CC59300BD3E2F /* DialogManager.m */; };
 		382F5C0E117CC64000BD3E2F /* DeviceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C0D117CC64000BD3E2F /* DeviceCommand.m */; };
 		382F5C13117CC6A200BD3E2F /* SnapshotCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C12117CC6A200BD3E2F /* SnapshotCommand.m */; };
@@ -40,15 +36,7 @@
 		382F5C4B117CC83700BD3E2F /* SystemStatusCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C4A117CC83700BD3E2F /* SystemStatusCommand.m */; };
 		382F5C50117CC84400BD3E2F /* ListDevicesCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C4D117CC84400BD3E2F /* ListDevicesCommand.m */; };
 		382F5C51117CC84400BD3E2F /* ListSnapshotsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C4F117CC84400BD3E2F /* ListSnapshotsCommand.m */; };
-		382F5C99117CD4B500BD3E2F /* XMPPIQCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C98117CD4B500BD3E2F /* XMPPIQCommand.m */; };
 		382F5C9C117CD4BF00BD3E2F /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5C9B117CD4BF00BD3E2F /* Command.m */; };
-		382F5CAB117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5CAA117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.m */; };
-		382F5CB6117CD62300BD3E2F /* XMPPLastActivityCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5CAD117CD62300BD3E2F /* XMPPLastActivityCommand.m */; };
-		382F5CB7117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5CAF117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.m */; };
-		382F5CB8117CD62300BD3E2F /* XMPPTimeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5CB1117CD62300BD3E2F /* XMPPTimeCommand.m */; };
-		382F5CB9117CD62300BD3E2F /* XMPPUserActivityCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5CB3117CD62300BD3E2F /* XMPPUserActivityCommand.m */; };
-		382F5CBA117CD62300BD3E2F /* XMPPVCardTempRequestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F5CB5117CD62300BD3E2F /* XMPPVCardTempRequestCommand.m */; };
-		382F60A2117E42C400BD3E2F /* XMPPShionScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F60A1117E42C400BD3E2F /* XMPPShionScriptCommand.m */; };
 		383A7B591172B35F00E0561F /* MotionSensorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 383A7B581172B35F00E0561F /* MotionSensorView.m */; };
 		383A7C101172CD2D00E0561F /* PresenceTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 383A7C0F1172CD2D00E0561F /* PresenceTimeline.m */; };
 		383A7E341173B5C900E0561F /* LampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 383A7E331173B5C900E0561F /* LampView.m */; };
@@ -57,9 +45,6 @@
 		383F539D103C8EE000A26A9A /* SSCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383F539C103C8EE000A26A9A /* SSCrypto.framework */; };
 		383F5432103CA21800A26A9A /* SSCrypto.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 383F539C103C8EE000A26A9A /* SSCrypto.framework */; };
 		384931521188CCCF006433AE /* remove_device.png in Resources */ = {isa = PBXBuildFile; fileRef = 384931511188CCCF006433AE /* remove_device.png */; };
-		3849FE53101E8AA300FC39E3 /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3849FE52101E8AA300FC39E3 /* XMPP.framework */; };
-		3849FE64101E8AC000FC39E3 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3849FE63101E8AC000FC39E3 /* libidn.a */; };
-		3849FEFF101E8EE500FC39E3 /* XMPP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3849FE52101E8AA300FC39E3 /* XMPP.framework */; };
 		384A4C051440A1F800F9CB6B /* GarageHawk.m in Sources */ = {isa = PBXBuildFile; fileRef = 384A4C041440A1F800F9CB6B /* GarageHawk.m */; };
 		384A4C541440C11D00F9CB6B /* GarageHawkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384A4C531440C11D00F9CB6B /* GarageHawkView.m */; };
 		384D55F3135391250059786A /* home_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 384D55F2135391250059786A /* home_btn.png */; };
@@ -250,11 +235,9 @@
 			files = (
 				38BBDEA51826A88A0016920A /* HockeySDK.framework in CopyFiles */,
 				38B82166126D340200AA5FE9 /* OpenCV.framework in CopyFiles */,
-				382F5BE1117CC15800BD3E2F /* LuaCore.framework in CopyFiles */,
 				383F5432103CA21800A26A9A /* SSCrypto.framework in CopyFiles */,
 				38981249100E98E50056A396 /* Growl-WithInstaller.framework in CopyFiles */,
 				3898124B100E98E50056A396 /* Sparkle.framework in CopyFiles */,
-				3849FEFF101E8EE500FC39E3 /* XMPP.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +279,6 @@
 		382F59C21177777200BD3E2F /* ChimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChimeView.m; sourceTree = "<group>"; };
 		382F59DD117785B800BD3E2F /* ThermostatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermostatView.h; sourceTree = "<group>"; };
 		382F59DE117785B800BD3E2F /* ThermostatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermostatView.m; sourceTree = "<group>"; };
-		382F5BC0117CC14F00BD3E2F /* LuaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LuaCore.framework; sourceTree = "<group>"; };
-		382F5BE6117CC19300BD3E2F /* LuaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaManager.h; sourceTree = "<group>"; };
-		382F5BE7117CC19300BD3E2F /* LuaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaManager.m; sourceTree = "<group>"; };
-		382F5BE9117CC4F300BD3E2F /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
-		382F5BEA117CC4F300BD3E2F /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
 		382F5BF7117CC59300BD3E2F /* DialogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogManager.h; sourceTree = "<group>"; };
 		382F5BF8117CC59300BD3E2F /* DialogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogManager.m; sourceTree = "<group>"; };
 		382F5C0C117CC64000BD3E2F /* DeviceCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCommand.h; sourceTree = "<group>"; };
@@ -331,24 +309,8 @@
 		382F5C4D117CC84400BD3E2F /* ListDevicesCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDevicesCommand.m; sourceTree = "<group>"; };
 		382F5C4E117CC84400BD3E2F /* ListSnapshotsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSnapshotsCommand.h; sourceTree = "<group>"; };
 		382F5C4F117CC84400BD3E2F /* ListSnapshotsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSnapshotsCommand.m; sourceTree = "<group>"; };
-		382F5C97117CD4B500BD3E2F /* XMPPIQCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPIQCommand.h; sourceTree = "<group>"; };
-		382F5C98117CD4B500BD3E2F /* XMPPIQCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPIQCommand.m; sourceTree = "<group>"; };
 		382F5C9A117CD4BF00BD3E2F /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		382F5C9B117CD4BF00BD3E2F /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
-		382F5CA9117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPSoftwareVersionCommand.h; sourceTree = "<group>"; };
-		382F5CAA117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPSoftwareVersionCommand.m; sourceTree = "<group>"; };
-		382F5CAC117CD62300BD3E2F /* XMPPLastActivityCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPLastActivityCommand.h; sourceTree = "<group>"; };
-		382F5CAD117CD62300BD3E2F /* XMPPLastActivityCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPLastActivityCommand.m; sourceTree = "<group>"; };
-		382F5CAE117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPServiceDiscoveryCommand.h; sourceTree = "<group>"; };
-		382F5CAF117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPServiceDiscoveryCommand.m; sourceTree = "<group>"; };
-		382F5CB0117CD62300BD3E2F /* XMPPTimeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPTimeCommand.h; sourceTree = "<group>"; };
-		382F5CB1117CD62300BD3E2F /* XMPPTimeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPTimeCommand.m; sourceTree = "<group>"; };
-		382F5CB2117CD62300BD3E2F /* XMPPUserActivityCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPUserActivityCommand.h; sourceTree = "<group>"; };
-		382F5CB3117CD62300BD3E2F /* XMPPUserActivityCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPUserActivityCommand.m; sourceTree = "<group>"; };
-		382F5CB4117CD62300BD3E2F /* XMPPVCardTempRequestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPVCardTempRequestCommand.h; sourceTree = "<group>"; };
-		382F5CB5117CD62300BD3E2F /* XMPPVCardTempRequestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPVCardTempRequestCommand.m; sourceTree = "<group>"; };
-		382F60A0117E42C400BD3E2F /* XMPPShionScriptCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPShionScriptCommand.h; sourceTree = "<group>"; };
-		382F60A1117E42C400BD3E2F /* XMPPShionScriptCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPShionScriptCommand.m; sourceTree = "<group>"; };
 		383A7B571172B35F00E0561F /* MotionSensorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionSensorView.h; sourceTree = "<group>"; };
 		383A7B581172B35F00E0561F /* MotionSensorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionSensorView.m; sourceTree = "<group>"; };
 		383A7C0E1172CD2D00E0561F /* PresenceTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenceTimeline.h; sourceTree = "<group>"; };
@@ -361,8 +323,6 @@
 		383A7E7A1173BF7300E0561F /* GroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupView.m; sourceTree = "<group>"; };
 		383F539C103C8EE000A26A9A /* SSCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSCrypto.framework; sourceTree = "<group>"; };
 		384931511188CCCF006433AE /* remove_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove_device.png; sourceTree = "<group>"; };
-		3849FE52101E8AA300FC39E3 /* XMPP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMPP.framework; sourceTree = "<group>"; };
-		3849FE63101E8AC000FC39E3 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		384A4C031440A1F800F9CB6B /* GarageHawk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageHawk.h; sourceTree = "<group>"; };
 		384A4C041440A1F800F9CB6B /* GarageHawk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageHawk.m; sourceTree = "<group>"; };
 		384A4C521440C11D00F9CB6B /* GarageHawkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageHawkView.h; sourceTree = "<group>"; };
@@ -687,10 +647,7 @@
 				38FEE9A00FA2022E00A232A4 /* AddressBook.framework in Frameworks */,
 				3898120C100E98E00056A396 /* Growl-WithInstaller.framework in Frameworks */,
 				3898120E100E98E00056A396 /* Sparkle.framework in Frameworks */,
-				3849FE53101E8AA300FC39E3 /* XMPP.framework in Frameworks */,
-				3849FE64101E8AC000FC39E3 /* libidn.a in Frameworks */,
 				383F539D103C8EE000A26A9A /* SSCrypto.framework in Frameworks */,
-				382F5BC1117CC14F00BD3E2F /* LuaCore.framework in Frameworks */,
 				38B82120126D33F700AA5FE9 /* OpenCV.framework in Frameworks */,
 				389F652B1353B7330022CFA2 /* CoreFoundation.framework in Frameworks */,
 				38BBDEA41826A8600016920A /* HockeySDK.framework in Frameworks */,
@@ -706,7 +663,6 @@
 				38968D23167AFFC400D6DE2A /* Framework */,
 				382F6015117E256B00BD3E2F /* Commands */,
 				382F5BE4117CC18200BD3E2F /* Scripting */,
-				382F5B37117CA75000BD3E2F /* XMPP */,
 				38ED195F116A877D00673F97 /* Model */,
 				38ED1896116A6D0100673F97 /* User Interface */,
 				380E887C0EFEC0DF00EFE5AC /* AppDelegate.h */,
@@ -725,10 +681,7 @@
 				38BBDEA31826A8600016920A /* HockeySDK.framework */,
 				389F652A1353B7330022CFA2 /* CoreFoundation.framework */,
 				38B8211F126D33F700AA5FE9 /* OpenCV.framework */,
-				382F5BC0117CC14F00BD3E2F /* LuaCore.framework */,
 				383F539C103C8EE000A26A9A /* SSCrypto.framework */,
-				3849FE63101E8AC000FC39E3 /* libidn.a */,
-				3849FE52101E8AA300FC39E3 /* XMPP.framework */,
 				38981208100E98DF0056A396 /* Growl-WithInstaller.framework */,
 				3898120A100E98E00056A396 /* Sparkle.framework */,
 				38FEE99F0FA2022E00A232A4 /* AddressBook.framework */,
@@ -834,53 +787,11 @@
 			name = "Remote Buddy";
 			sourceTree = "<group>";
 		};
-		382F5B37117CA75000BD3E2F /* XMPP */ = {
-			isa = PBXGroup;
-			children = (
-				382F5F9A117E1DDA00BD3E2F /* Standard XMPP Commands */,
-				382F609F117E42A200BD3E2F /* Shion XMPP Commands */,
-				382F5C97117CD4B500BD3E2F /* XMPPIQCommand.h */,
-				382F5C98117CD4B500BD3E2F /* XMPPIQCommand.m */,
-				382F5BE9117CC4F300BD3E2F /* XMPPManager.h */,
-				382F5BEA117CC4F300BD3E2F /* XMPPManager.m */,
-			);
-			name = XMPP;
-			sourceTree = "<group>";
-		};
 		382F5BE4117CC18200BD3E2F /* Scripting */ = {
 			isa = PBXGroup;
 			children = (
-				382F5BE5117CC18700BD3E2F /* Lua */,
 			);
 			name = Scripting;
-			sourceTree = "<group>";
-		};
-		382F5BE5117CC18700BD3E2F /* Lua */ = {
-			isa = PBXGroup;
-			children = (
-				382F5BE6117CC19300BD3E2F /* LuaManager.h */,
-				382F5BE7117CC19300BD3E2F /* LuaManager.m */,
-			);
-			name = Lua;
-			sourceTree = "<group>";
-		};
-		382F5F9A117E1DDA00BD3E2F /* Standard XMPP Commands */ = {
-			isa = PBXGroup;
-			children = (
-				382F5CA9117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.h */,
-				382F5CAA117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.m */,
-				382F5CB2117CD62300BD3E2F /* XMPPUserActivityCommand.h */,
-				382F5CB3117CD62300BD3E2F /* XMPPUserActivityCommand.m */,
-				382F5CB0117CD62300BD3E2F /* XMPPTimeCommand.h */,
-				382F5CB1117CD62300BD3E2F /* XMPPTimeCommand.m */,
-				382F5CAE117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.h */,
-				382F5CAF117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.m */,
-				382F5CAC117CD62300BD3E2F /* XMPPLastActivityCommand.h */,
-				382F5CAD117CD62300BD3E2F /* XMPPLastActivityCommand.m */,
-				382F5CB4117CD62300BD3E2F /* XMPPVCardTempRequestCommand.h */,
-				382F5CB5117CD62300BD3E2F /* XMPPVCardTempRequestCommand.m */,
-			);
-			name = "Standard XMPP Commands";
 			sourceTree = "<group>";
 		};
 		382F6015117E256B00BD3E2F /* Commands */ = {
@@ -930,15 +841,6 @@
 				38B82057126CFF4300AA5FE9 /* ActivateHouseLightsCommand.m */,
 			);
 			name = Commands;
-			sourceTree = "<group>";
-		};
-		382F609F117E42A200BD3E2F /* Shion XMPP Commands */ = {
-			isa = PBXGroup;
-			children = (
-				382F60A0117E42C400BD3E2F /* XMPPShionScriptCommand.h */,
-				382F60A1117E42C400BD3E2F /* XMPPShionScriptCommand.m */,
-			);
-			name = "Shion XMPP Commands";
 			sourceTree = "<group>";
 		};
 		383A7B561172B32700E0561F /* Device Views */ = {
@@ -1435,9 +1337,10 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shion" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -1548,8 +1451,6 @@
 				382F588111774E2100BD3E2F /* HouseView.m in Sources */,
 				382F59C31177777200BD3E2F /* ChimeView.m in Sources */,
 				382F59DF117785B800BD3E2F /* ThermostatView.m in Sources */,
-				382F5BE8117CC19300BD3E2F /* LuaManager.m in Sources */,
-				382F5BEB117CC4F300BD3E2F /* XMPPManager.m in Sources */,
 				382F5BF9117CC59300BD3E2F /* DialogManager.m in Sources */,
 				382F5C0E117CC64000BD3E2F /* DeviceCommand.m in Sources */,
 				382F5C13117CC6A200BD3E2F /* SnapshotCommand.m in Sources */,
@@ -1565,15 +1466,7 @@
 				382F5C4B117CC83700BD3E2F /* SystemStatusCommand.m in Sources */,
 				382F5C50117CC84400BD3E2F /* ListDevicesCommand.m in Sources */,
 				382F5C51117CC84400BD3E2F /* ListSnapshotsCommand.m in Sources */,
-				382F5C99117CD4B500BD3E2F /* XMPPIQCommand.m in Sources */,
 				382F5C9C117CD4BF00BD3E2F /* Command.m in Sources */,
-				382F5CAB117CD60B00BD3E2F /* XMPPSoftwareVersionCommand.m in Sources */,
-				382F5CB6117CD62300BD3E2F /* XMPPLastActivityCommand.m in Sources */,
-				382F5CB7117CD62300BD3E2F /* XMPPServiceDiscoveryCommand.m in Sources */,
-				382F5CB8117CD62300BD3E2F /* XMPPTimeCommand.m in Sources */,
-				382F5CB9117CD62300BD3E2F /* XMPPUserActivityCommand.m in Sources */,
-				382F5CBA117CD62300BD3E2F /* XMPPVCardTempRequestCommand.m in Sources */,
-				382F60A2117E42C400BD3E2F /* XMPPShionScriptCommand.m in Sources */,
 				38F73DE81185D01300282586 /* Phone.m in Sources */,
 				38FC563F1190FC3D00DED95A /* Trigger.m in Sources */,
 				38A522C8119B02980081D32F /* TriggerManager.m in Sources */,
@@ -1702,8 +1595,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1711,7 +1605,6 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Shion_Prefix.pch;
@@ -1722,9 +1615,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Shion;
 				SDKROOT = macosx;
-				VALID_ARCHS = "$(VALID_ARCHS)";
+				VALID_ARCHS = i386;
 			};
 			name = Debug;
 		};
@@ -1732,14 +1626,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 					"/Users/cjkarr/Documents/GitHub/Shion-App",
 				);
-				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Shion_Prefix.pch;
 				GCC_VERSION = "";
@@ -1749,57 +1642,55 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Shion;
 				SDKROOT = macosx;
-				VALID_ARCHS = "$(VALID_ARCHS)";
+				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				GCC_C_LANGUAGE_STANDARD = c99;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				ONLY_ACTIVE_ARCH = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lcrypto",
 					"-lssl",
 					"-lxml2",
 				);
 				PREBINDING = NO;
-				SDKROOT = macosx10.4;
-				VALID_ARCHS = "i386 ppc ppc7400 ppc970";
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = 4.0;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lcrypto",
 					"-lssl",
 					"-lxml2",
 				);
 				PREBINDING = NO;
-				SDKROOT = macosx10.4;
-				VALID_ARCHS = "i386 ppc ppc7400 ppc970";
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};

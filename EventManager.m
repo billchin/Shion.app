@@ -16,7 +16,7 @@
 #import "PreferencesManager.h"
 #import "NotificationManager.h"
 
-#import "XMPPManager.h"
+//#import "XMPPManager.h"
 
 @implementation EventManager
 
@@ -367,7 +367,7 @@ static EventManager * sharedInstance = nil;
 
 		[[NotificationManager sharedInstance] showMessage:description title:title icon:nil type:EVENT_NOTE];
 		
-		[[XMPPManager sharedInstance] broadcastEvent:event forIdentifier:sourceId];
+//		[[XMPPManager sharedInstance] broadcastEvent:event forIdentifier:sourceId];
 
 		dirty = YES;
 		

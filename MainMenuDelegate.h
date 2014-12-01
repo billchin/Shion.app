@@ -17,6 +17,6 @@
 - (IBAction) reportIssue:(id) sender;
 - (IBAction) preferences:(id) sender;
 - (IBAction) console:(id) sender;
-- (IBAction) lua:(id) sender;
+//- (IBAction) lua:(id) sender;
 
 @end

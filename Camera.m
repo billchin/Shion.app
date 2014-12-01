@@ -8,7 +8,7 @@
 
 #import "Camera.h"
 
-#import "XMPPManager.h"
+//#import "XMPPManager.h"
 #import "EventManager.h"
 
 #define TAKE_PICTURE @"take_picture"
@@ -183,7 +183,7 @@
 		
 			[[NSFileManager defaultManager] removeFileAtPath:path handler:nil];
 		
-			[[XMPPManager sharedInstance] transmitPhoto:[self photoForId:[image valueForKey:@"identifier"]] forCamera:self];
+//			[[XMPPManager sharedInstance] transmitPhoto:[self photoForId:[image valueForKey:@"identifier"]] forCamera:self];
 			
 			if (lastFrame != NULL)
 				cvReleaseImage(&lastFrame);

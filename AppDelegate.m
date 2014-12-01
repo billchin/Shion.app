@@ -16,8 +16,8 @@
 #import "EventManager.h"
 #import "ConsoleManager.h"
 #import "LogManager.h"
-#import "LuaManager.h"
-#import "XMPPManager.h"
+//#import "LuaManager.h"
+//#import "XMPPManager.h"
 #import "TriggerManager.h"
 #import "SolarEventManager.h"
 
@@ -133,8 +133,8 @@
 	}
 
 	[LogManager sharedInstance];
-	[LuaManager sharedInstance];
-	[XMPPManager sharedInstance];
+	//[LuaManager sharedInstance];
+	//[XMPPManager sharedInstance];
 	
 	[PreferencesManager sharedInstance]; 
 	[[ConsoleManager sharedInstance] consoleWindow:self];

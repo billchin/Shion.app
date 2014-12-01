@@ -114,9 +114,11 @@ static IssueManager * sharedInstance = nil;
 			
 		if (error != nil)
 			NSRunAlertPanel(@"Error Recording Issue", [error localizedDescription], @"OK", nil, nil);
+        
+        
 		else
 		{
-			NSString * bugId = [NSString stringWithCString:[bug bytes] length:[bug length]];
+            NSString * bugId = [NSString stringWithCharacters:[bug bytes] length:[bug length]];
 			
 			NSRunInformationalAlertPanel(@"Issue Reported", 
 										 [NSString stringWithFormat:@"The issue has been recorded. (id:%@)\n\nThank you for your feedback.",

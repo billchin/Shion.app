@@ -12,14 +12,17 @@
 #import "PreferencesManager.h"
 #import "ConsoleManager.h"
 #import "EventManager.h"
-#import "LuaManager.h"
+//#import "LuaManager.h"
 
 @implementation MainMenuDelegate
 
+/*
 - (IBAction) lua:(id) sender
 {
 	[[LuaManager sharedInstance] luaWindow:sender];
 }
+ */
+
 
 - (IBAction) reportIssue:(id) sender
 {

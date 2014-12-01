@@ -11,7 +11,7 @@
 
 #import "MobileClient.h"
 #import "ConsoleManager.h"
-#import "XMPPManager.h"
+//#import "XMPPManager.h"
 #import "EventManager.h"
 
 @implementation MobileClient
@@ -305,7 +305,7 @@
 								   description:[NSString stringWithFormat:@"The beacon of %@ was activated.", [self name]]
 										 value:@"65535"];
 	
-	[[XMPPManager sharedInstance] beaconDevice:self];
+//	[[XMPPManager sharedInstance] beaconDevice:self];
 }
 
 @end

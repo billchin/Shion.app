@@ -134,7 +134,7 @@
 {
 	NSDictionary *contents;
 	
-	if (contents = [notification userInfo])
+	if ((contents = [notification userInfo]))
 	{
 		NSObject<BehaviourBridgeReceptorDelegate> *theDelegate = [self delegate];
 	

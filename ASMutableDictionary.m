@@ -22,7 +22,7 @@
 {
 	store = [[NSMutableDictionary alloc] initWithCapacity:numItems];
 	
-	return self;
+	return [super initWithCapacity:numItems];
 }
 
 - (void) removeObjectForKey:(id) key

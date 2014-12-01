@@ -7,7 +7,7 @@
 //
 
 #import "NotificationManager.h"
-#import "XMPPManager.h"
+//#import "XMPPManager.h"
 
 @implementation NotificationManager
 
@@ -116,7 +116,7 @@ static NotificationManager * sharedInstance = nil;
 								   isSticky:NO
 							   clickContext:nil];
 */
-	[[XMPPManager sharedInstance] updateStatus:message available:YES];
+//	[[XMPPManager sharedInstance] updateStatus:message available:YES];
 }
 
 @end
