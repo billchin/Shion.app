@@ -133,8 +133,8 @@
 	}
 
 	[LogManager sharedInstance];
-	//[LuaManager sharedInstance];
-	//[XMPPManager sharedInstance];
+	//[LuaManager sharedInstance]; // removed lua
+	//[XMPPManager sharedInstance]; // removed xmpp for now
 	
 	[PreferencesManager sharedInstance]; 
 	[[ConsoleManager sharedInstance] consoleWindow:self];

@@ -72,9 +72,16 @@ static DeviceManager * sharedInstance = nil;
 	
 	BOOL isDir;
 	
-	if (![[NSFileManager defaultManager] fileExistsAtPath:applicationSupportFolder isDirectory:&isDir])
-		[[NSFileManager defaultManager] createDirectoryAtPath:applicationSupportFolder attributes:[NSDictionary dictionary]];
-	
+    if (![[NSFileManager defaultManager] fileExistsAtPath:applicationSupportFolder isDirectory:&isDir]) {
+        NSError *error = [[NSError alloc] init];
+        [[NSFileManager defaultManager] createDirectoryAtPath:applicationSupportFolder  withIntermediateDirectories:NO attributes:[NSDictionary dictionary] error:&error];
+        
+        //TODO
+        // should do something with the error here
+        
+        [error autorelease];
+    }
+    
 	return applicationSupportFolder;
 }
 
@@ -653,7 +660,13 @@ static DeviceManager * sharedInstance = nil;
 	
 		// TODO: Add 10.4 & 10.5+ specific handling code here...
 	
-		[[NSFileManager defaultManager] removeFileAtPath:devicePath handler:nil];
+        NSError *error = [[NSError alloc] init];
+        [[NSFileManager defaultManager] removeItemAtPath:devicePath error:&error];
+        
+        //TODO
+        // should do something with the error here
+
+        [error autorelease];
 	
 		[devices removeObject:device];
 	}
