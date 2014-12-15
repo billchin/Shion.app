@@ -22,7 +22,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "ASStatusCommand.h";
+#import "ASStatusCommand.h"
 
 @interface ASGetTemperatureCommand: ASStatusCommand 
 {

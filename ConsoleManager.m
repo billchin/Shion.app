@@ -1317,6 +1317,7 @@ static ConsoleManager * sharedInstance = nil;
 		[panel setCanChooseDirectories:NO];
 		[panel setCanChooseFiles:YES];
 		
+        // fix with [panel beginSheetModalForWindow:addTriggerPanel completionHandler:<#^(NSInteger result)handler#>
 		[panel beginSheetForDirectory:directory file:file types:[NSArray arrayWithObject:@"scpt"] 
 					   modalForWindow:addTriggerPanel modalDelegate:self 
 					   didEndSelector:@selector(scriptPanelDidEnd:returnCode:contextInfo:) 
@@ -1335,7 +1336,7 @@ static ConsoleManager * sharedInstance = nil;
 	{
 		Trigger * trigger = [selection valueForKey:TRIGGER];
 
-		[trigger setValue:[[panel filenames] lastObject] forKey:@"script"];
+        [trigger setValue:[[panel URLs] lastObject] forKey:@"script"];
 	}
 }
 
